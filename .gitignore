@@ -1,0 +1,50 @@
+# Large Raw Datasets (>100MB)
+dataset/Combined.csv
+dataset/Encoded.csv
+ids/dataset/**/*.csv
+ids/dataset/*.zip
+ids/dataset/Combined/
+ids/dataset/Encoded/
+
+# Large Generated Sequence Tensors (>100MB)
+outputs/**/*.pt
+outputs/sequence_dataset/*.pt
+outputs/pyg_dataset/*.pt
+outputs/flow_records.csv
+outputs/node_features/
+outputs/progressive_windows/
+outputs/graph_edges/
+outputs/graphs/
+outputs/sequence_dataset/exact_python_matlab_mapping.npz
+outputs/sequence_dataset/python_matlab_sequence_mapping.npz
+outputs/sequence_dataset/training_graph_edges_from_pt.mat
+outputs/sequence_dataset/training_graph_edges_from_pt.npz
+
+# VS Code & Caches
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Environment & Credentials
+.env
+.env.local
+*.env
+
+# Logs & Temporary files
+*.log
+logs/
+
+# VS Code
+.vscode/
